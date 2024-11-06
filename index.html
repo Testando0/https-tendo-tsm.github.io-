@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Nana!</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: 'Arial', serif;
+            color: #ffffff;
+            background-color: #5e3848;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .card {
+            background-color: #191919;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 700px;
+            padding: 30px;
+            text-align: center;
+            margin: 20px;
+            border: 2px solid #ffd1dc;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .heart {
+            color: #ff4b5c;
+            font-size: 2em;
+            margin-bottom: 10px;
+            animation: pulse 1.5s infinite;
+        }
+        h1 {
+            color: #ff4b5c;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-family: 'Arial', serif;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.8em;
+            color: #e6e0e0;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+        .signature {
+            margin-top: 30px;
+            font-style: italic;
+            color: #f8f7f7;
+            font-size: 1.1em;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin-top: 30px;
+            background-color: #ff4b5c;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-family: 'Arial', sans-serif;
+            animation: fadeIn 3.5s ease-in-out;
+        }
+        .btn:hover {
+            background-color: #ff7b7c;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: center;
+            animation: fadeIn 4s ease-in-out;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            border: 2px solid #ffd1dc;
+            opacity: 0;
+            transform: scale(0.8);
+            animation: fadeInScale 1.5s ease forwards;
+            animation-delay: 4s;
+        }
+
+        /* Animações */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        @keyframes fadeInScale {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <span class="heart">❤️</span>
+    <h1>Feliz Aniversário, Pituchinha!</h1>
+    <p>
+        Meu amor,  
+        <br><br>
+        Faz 3 anos que eu te conheço e continuo conhecendo você dia após dia, durante esses mesmos 3 anos já passamos por tantas coisas, sejam elas boas ou ruins, mas nós sempre estivemos juntos. Você já me ajudou tanto em tantas coisas, depressão, ansiedade, falta de autoestima, momentos em que eu me sentia um lixo, foram tantas coisas.
+        <br><br>
+        Por você sempre ter estado comigo, principalmente nas horas ruins, eu tenho um carinho e um afeto enorme por você e você sabe disso minha pituchinha, sou realmente muito grato por ter você na minha vida.
+        <br><br>
+        Você é uma das pessoas mais importantes pra mim nos dias de hoje, saiba que você é muito importante pra mim e que eu te amo muito. Você me apresentou inúmeras coisas e abriu meu mundo pra várias coisas, você mudou meu gosto musical, meu jeito de ser, a forma como eu trato as pessoas e a forma de agir, são tantas coisas que eu passaria horas aqui. Você me mudou pra melhor, e eu agradeço muito a você por isso.
+        <br><br>
+        Desejo a você tudo de melhor que esse mundo pode oferecer, porque você merece, por tudo o que você já passou no passado, pelo esforço tremendo que você tá fazendo pra buscar aquilo que você tanto almeja e sonha, e por ser essa garota tão linda e perfeita que você é. Saiba que eu sempre vou estar aqui, torcendo, animando, consolando, fazendo tudo o que estiver ao meu alcance por você, faça chuva ou faça sol, nos dias bons e nos dias ruins, eu vou estar aqui pra você.
+        <br><br>
+        Eu te amo, muito mais do que você possa imaginar, posso ter minhas falhas, mas eu te digo diante de Deus, eu te amo com todo o meu coração.
+    </p>
+
+    <!-- Galeria de imagens com animação -->
+    <div class="gallery">
+        <img src="file:///C:/Users/User/Downloads/IMG_5887.PNG" alt="Tayná sorrindo em um momento especial">
+        <img src="file:///C:/Users/User/Downloads/IMG_4345.JPEG" alt="Tayná em uma viagem especial">
+        <img src="file:///C:/Users/User/Downloads/IMG_5689.PNG" alt="Tayná aproveitando um dia ensolarado">
+    </div>
+
+    <p class="signature">
+        Com todo meu amor e carinho,  
+        Gabriel.
+    </p>
+    <a href="#" class="btn">Parabéns, Meu Amor! 💖</a>
+</div>
+
+</body>
+</html>
